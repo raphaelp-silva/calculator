@@ -27,8 +27,9 @@
             width: 100%;
             background-color: #333;
             color: #fff;
-            padding: 20px;
+            padding: 10px;
             text-align: center;
+            
         }
         footer a {
             color: #fff;
@@ -83,7 +84,7 @@
 </head>
 <body>
     <h1>Calculadora</h1>
-    <p>Calculadora convencional para calcular as operações de  SUBTRAÇÃO, ADIÇÃO, MULTIPLICAÇÃO E DIVISÃO, utilizando HTML, CSS e Python</p>
+    <p>Calculadora convencional para calcular as operações de  subtração, adição, multiplicação e divisão, utilizando HTML, CSS e Python</p>
     <form action="/calcular" method="post">
         <input type="number" name="num1" placeholder="Digite o primeiro número" required value="{{ num1 }}">
         <input type="number" name="num2" placeholder="Digite o segundo número" required value="{{ num2 }}">
@@ -100,7 +101,7 @@
     {% endif %}
 
     <footer>
-        <p>Está Calculadora foi desenvolvida por: Raphael Paulo da Silva</p>
+        <p>Esta calculadora foi desenvolvida por: Raphael Paulo da Silva</p>
         <p>email:<a href="mailto:raphaelp.silva@outlook.com">raphaelp.silva@outlook.com</a></p>
         <p>GitHub:<a href="https://github.com/raphaelp-silva">Raphael Paulo</a></p>
     </footer>
